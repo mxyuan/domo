@@ -7,7 +7,11 @@ Page({
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+  },
+  // 底部
+  onReachBottom () {
+    console.log('到底了......')
   },
   //事件处理函数
   bindViewTap: function() {

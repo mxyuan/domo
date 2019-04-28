@@ -1,0 +1,3 @@
+<progress class="box" percent="100" show-info="false" stroke-width="20"
+  active="true" backgroundColor="#0f0" activeColor="#f00" active-mode="backwards">
+</progress>
